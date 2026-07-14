@@ -10,7 +10,10 @@ h1{
 }
 p{
     font-weight: 500;
-    font-size: large;
+    font-size: 19px;
+}
+li{
+    font-size: 17px;
 }
 img[src="SDG 5.jpg"]{
     width: 350px;
@@ -23,6 +26,20 @@ img[src="SDG 5.jpg"]{
 button{
     border-width: 0px;
     background-color: #a82615;
-    font-size: x-large;
-
+    font-size: 25px;
+    margin: auto;
+    display: block;
+    margin-bottom: 14px;
+}
+button:hover{
+    font-size: 30px;
+    transition-duration: 0.3s;
+}
+button:active{
+    color: white;
+    background-color: black;
+    transition: 0s;
+}
+a{
+    text-decoration: none;
 }
